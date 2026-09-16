@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Oil Diller",
+    "category": "Design",
+    "type": "Part Time",
+    "location": "Remote",
+    "description": "We are looking for a UI/UX Designer to turn our software into easy-to-use products for our clients.",
+    "responsibilities": [
+      "Gather user requirements, designing graphic elements and building navigation components.",
+      "Use design software and wireframe tools to build easy-to-use products.",
+      "Create both functional and appealing features that address our clients' needs and help us grow our customer base."
+    ],
+    "requirements": [
+      "Proven work experience as a UI/UX Designer or similar role",
+      "Portfolio of design projects",
+      "Knowledge of wireframe tools (e.g. Wireframe.cc and InVision)",
+      "Up-to-date knowledge of design software like Adobe Illustrator and Photoshop",
+      "Team spirit; strong communication skills to collaborate with various stakeholders",
+      "Good time-management skills",
+      "BSc in Design, Computer Science or relevant field"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Secretary",
+    "category": "Design",
+    "type": "Part Time",
+    "location": "Remote",
+    "description": "We are looking for a UI/UX Designer to turn our software into easy-to-use products for our clients.",
+    "responsibilities": [
+      "Gather user requirements, designing graphic elements and building navigation components.",
+      "Use design software and wireframe tools to build easy-to-use products.",
+      "Create both functional and appealing features that address our clients' needs and help us grow our customer base."
+    ],
+    "requirements": [
+      "Proven work experience as a UI/UX Designer or similar role",
+      "Portfolio of design projects",
+      "Knowledge of wireframe tools (e.g. Wireframe.cc and InVision)",
+      "Up-to-date knowledge of design software like Adobe Illustrator and Photoshop",
+      "Team spirit; strong communication skills to collaborate with various stakeholders",
+      "Good time-management skills",
+      "BSc in Design, Computer Science or relevant field"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "category": "Design",
+    "type": "Part Time",
+    "location": "Remote",
+    "description": "We are looking for a UI/UX Designer to turn our software into easy-to-use products for our clients.",
+    "responsibilities": [
+      "Gather user requirements, designing graphic elements and building navigation components.",
+      "Use design software and wireframe tools to build easy-to-use products.",
+      "Create both functional and appealing features that address our clients' needs and help us grow our customer base."
+    ],
+    "requirements": [
+      "Proven work experience as a UI/UX Designer or similar role",
+      "Portfolio of design projects",
+      "Knowledge of wireframe tools (e.g. Wireframe.cc and InVision)",
+      "Up-to-date knowledge of design software like Adobe Illustrator and Photoshop",
+      "Team spirit; strong communication skills to collaborate with various stakeholders",
+      "Good time-management skills",
+      "BSc in Design, Computer Science or relevant field"
+    ]
+  }
+]
