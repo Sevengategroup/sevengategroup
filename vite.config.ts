@@ -12,12 +12,7 @@ export default defineConfig({
     tanstackStart({
       server: { entry: "server" }
     }),
-    nitro({ 
-      preset: 'vercel',
-      externals: {
-        inline: ['tslib', /@radix-ui\/.*/]
-      }
-    }),
+    nitro({ preset: 'vercel' }),
     react(),
   ],
   ssr: {
