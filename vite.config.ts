@@ -15,4 +15,7 @@ export default defineConfig({
     nitro({ preset: 'vercel' }),
     react(),
   ],
+  ssr: {
+    noExternal: ['tslib', /@radix-ui\/.*/],
+  },
 });
