@@ -4,7 +4,7 @@ import { Link } from "@tanstack/react-router";
 import construction2Img from "@/assets/archive/construction20.jpeg";
 const heroSlides = [
   {
-    image: "/hero2.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1VlSYRL66tZSrsprpswOtMkTlYprKaceo",
     text: "Build for Africa\nBacked by Global Expertise",
     position: "top-left",
   },
