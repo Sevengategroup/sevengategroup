@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Link } from "@tanstack/react-router";
 import construction2Img from "@/assets/archive/construction20.jpeg";
+import hero2Img from "@/assets/hero2.jpg";
 
 const heroSlides = [
   {
-    image: "src/assets/hero2.jpg",
+    image: hero2Img,
     text: "Build for Africa\nBacked by Global Expertise",
     position: "top-left",
   },
