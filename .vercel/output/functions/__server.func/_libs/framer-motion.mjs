@@ -1,6 +1,6 @@
 import { a as __toCommonJS, n as __esmMin, o as __toESM, r as __exportAll } from "../_runtime.mjs";
 import { n as require_react } from "./hugeicons__react+react.mjs";
-import { n as require_jsx_runtime } from "./radix-ui__react-context+react.mjs";
+import { n as require_jsx_runtime } from "./react+tanstack__react-query.mjs";
 //#region node_modules/framer-motion/dist/es/context/LayoutGroupContext.mjs
 var import_jsx_runtime = require_jsx_runtime();
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);

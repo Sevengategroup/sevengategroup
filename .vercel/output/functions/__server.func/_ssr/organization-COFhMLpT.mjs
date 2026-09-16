@@ -1,4 +1,4 @@
-import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { t as motion } from "../_libs/motion.mjs";
 import { n as Navbar, t as Footer } from "./Footer-BTIkrdsZ.mjs";
 import { t as ChatWidget } from "./ChatWidget-CUBVLoNx.mjs";

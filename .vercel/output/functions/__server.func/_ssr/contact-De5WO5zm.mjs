@@ -1,5 +1,5 @@
 import { t as HugeiconsIcon } from "../_libs/hugeicons__react+react.mjs";
-import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { t as motion } from "../_libs/motion.mjs";
 import { g as Call02Icon, l as Mail01Icon, r as SentIcon, s as Message01Icon } from "../_libs/hugeicons__core-free-icons.mjs";
 import { n as Navbar, t as Footer } from "./Footer-BTIkrdsZ.mjs";

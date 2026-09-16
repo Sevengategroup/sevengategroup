@@ -1,4 +1,4 @@
-import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { t as motion } from "../_libs/motion.mjs";
 import { n as Navbar, t as Footer } from "./Footer-BTIkrdsZ.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/ceo-B7q7EETL.js

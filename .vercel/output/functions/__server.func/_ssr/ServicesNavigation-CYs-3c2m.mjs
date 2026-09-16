@@ -1,5 +1,5 @@
-import { v as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { n as require_jsx_runtime } from "../_libs/radix-ui__react-context+react.mjs";
+import { y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { t as motion } from "../_libs/motion.mjs";
 import { n as ShieldCheck, o as BuildingComplex, r as Pickaxe, s as ArrowRight, t as Zap } from "../_libs/lucide-react.mjs";
 //#region node_modules/.nitro/vite/services/ssr/assets/ServicesNavigation-CYs-3c2m.js
