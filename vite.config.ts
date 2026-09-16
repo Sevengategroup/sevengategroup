@@ -12,7 +12,20 @@ export default defineConfig({
     tanstackStart({
       server: { entry: "server" }
     }),
-    nitro({ preset: process.env.BUILD_TARGET === 'docker' ? 'node-server' : 'vercel' }),
+    nitro({ 
+      preset: process.env.BUILD_TARGET === 'docker' ? 'node-server' : 'vercel',
+      vercel: {
+        functions: {
+          "**/*": {
+            includeFiles: [
+              "node_modules/.prisma/client/**",
+              "node_modules/@prisma/client/**",
+              "node_modules/tslib/**"
+            ]
+          }
+        }
+      }
+    }),
     react(),
   ],
 });
