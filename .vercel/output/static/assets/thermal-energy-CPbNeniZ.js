@@ -1,0 +1,1 @@
+var e=`/assets/thermal-energy-B91fQSyD.jpg`;export{e as t};

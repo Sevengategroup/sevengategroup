@@ -1,0 +1,1 @@
+var e=`/assets/power-MrQXgDU8.webp`;export{e as t};

@@ -1,0 +1,1 @@
+var e=`/assets/oil%20and%20gas-B0It7cCJ.webp`;export{e as t};
