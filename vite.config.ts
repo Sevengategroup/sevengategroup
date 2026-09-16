@@ -12,7 +12,7 @@ export default defineConfig({
     tanstackStart({
       server: { entry: "server" }
     }),
-    nitro({ preset: 'vercel' }),
+    nitro({ preset: process.env.BUILD_TARGET === 'docker' ? 'node-server' : 'vercel' }),
     react(),
   ],
 });
