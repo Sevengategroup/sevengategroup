@@ -47,7 +47,7 @@ function OtherServicesComponent() {
             {/* Top Background Banner */}
             <section className="relative h-[50svh] md:h-[60svh] w-full flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
-                    <img
+                    <img loading="lazy" 
                         src="/other-services.jpeg"
                         alt="Sevengate Group Specialised Services"
                         className="w-full h-full object-cover object-center"
@@ -130,7 +130,7 @@ function OtherServicesComponent() {
                                 </Link>
                             </div>
                             <motion.div variants={fadeInUp} className="relative w-full aspect-video md:aspect-[21/9] overflow-hidden bg-muted mt-4">
-                                <img src={lpgImg} alt="LPG Gas Network" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" />
+                                <img loading="lazy" src={lpgImg} alt="LPG Gas Network" className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" />
                             </motion.div>
                         </div>
                     </motion.div>
@@ -268,3 +268,4 @@ function OtherServicesComponent() {
         </main>
     )
 }
+

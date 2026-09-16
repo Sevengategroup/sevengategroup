@@ -119,7 +119,7 @@ function CareerPage() {
 
           {/* Right Column (Image) */}
           <motion.div variants={fadeInUp} className="relative w-full rounded-none overflow-hidden shadow-2xl group bg-white">
-            <img src={aboutImg} alt="Career at Sevengate Group" className="w-full h-auto object-contain transition-transform duration-1000 group-hover:scale-105" />
+            <img loading="lazy" src={aboutImg} alt="Career at Sevengate Group" className="w-full h-auto object-contain transition-transform duration-1000 group-hover:scale-105" />
           </motion.div>
 
         </motion.div>
@@ -494,3 +494,4 @@ function CareerPage() {
     </main>
   )
 }
+

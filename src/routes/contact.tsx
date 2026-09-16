@@ -38,7 +38,7 @@ function ContactPage() {
       {/* Hero Section */}
       <section className="relative w-full aspect-[4/3] md:aspect-[21/9] bg-foreground text-white overflow-hidden flex items-center">
         <div className="absolute inset-0 z-0">
-          <img src="/hero2.jpeg" alt="Contact Banner" className="absolute inset-0 w-full h-full object-cover object-center opacity-20" />
+          <img loading="lazy" src="/hero2.jpeg" alt="Contact Banner" className="absolute inset-0 w-full h-full object-cover object-center opacity-20" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,var(--amber-brand)_0%,transparent_30%)] opacity-20" />
           <div className="absolute inset-0 bg-grid-white/[0.02]" />
         </div>
@@ -200,3 +200,4 @@ function ContactPage() {
     </main>
   );
 }
+

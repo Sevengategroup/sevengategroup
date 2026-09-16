@@ -15,7 +15,7 @@ export function Footer() {
 
           {/* Column 1: Logo, Contact & Socials */}
           <div className="col-span-1 flex flex-col gap-6 pt-6">
-            <img src={logo} alt="Sevengate Logo" className="h-12 w-auto object-contain self-start brightness-0 invert" />
+            <img loading="lazy" src={logo} alt="Sevengate Logo" className="h-12 w-auto object-contain self-start brightness-0 invert" />
             <div className="flex flex-col gap-6">
               <a href="mailto:info@sevengategroup.com" className="text-white/60 hover:text-white transition-colors font-sans text-sm">
                 adminoffice@sevengategroup.com
@@ -111,3 +111,4 @@ export function Footer() {
     </footer>
   );
 }
+

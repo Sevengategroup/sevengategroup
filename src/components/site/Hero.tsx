@@ -40,6 +40,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <AnimatePresence mode="popLayout">
           <motion.img
+            fetchPriority="high"
             key={currentImageIndex}
             src={heroSlides[currentImageIndex].image}
             alt="Sevengate Background"

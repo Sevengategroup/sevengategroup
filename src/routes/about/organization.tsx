@@ -49,7 +49,7 @@ function OrganizationComponent() {
           <h3 className="mb-10 font-display text-3xl font-semibold text-foreground text-center">
             Sevengate Group Organization
           </h3>
-          <img 
+          <img loading="lazy" 
             src={orgStructureImg} 
             alt="Sevengate Group Organization Structure" 
             className="w-full h-auto rounded-none shadow-sm object-contain max-h-[800px]"
@@ -63,3 +63,4 @@ function OrganizationComponent() {
     </main>
   )
 }
+

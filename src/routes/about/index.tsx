@@ -37,7 +37,7 @@ function AboutUsComponent() {
       {/* Top Background Banner */}
       <section className="relative h-[50svh] md:h-[60svh] w-full flex items-end pb-0 md:pb-2">
         <div className="absolute inset-0 z-0">
-          <img
+          <img loading="lazy" 
             src={bannerImg}
             alt="About Sevengate Group"
             className="w-full h-full object-cover blur-[2px] scale-105"
@@ -123,7 +123,7 @@ function AboutUsComponent() {
           variants={fadeInUp}
           className="w-full aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl md:rounded-3xl shadow-lg"
         >
-          <img
+          <img loading="lazy" 
             src="/about-image.jpeg"
             alt="About Sevengate Group Operations"
             className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
@@ -227,7 +227,7 @@ function AboutUsComponent() {
             variants={fadeInUp}
             className="relative w-full aspect-square md:aspect-[4/5] rounded-none overflow-hidden shadow-2xl group bg-muted lg:sticky lg:top-36"
           >
-            <img src={aboutImg} alt="Why Sevengate Group" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
+            <img loading="lazy" src={aboutImg} alt="Why Sevengate Group" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
           </motion.div>
         </div>
 
@@ -259,3 +259,4 @@ function AboutUsComponent() {
     </main>
   )
 }
+

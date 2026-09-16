@@ -25,7 +25,7 @@ function SubsidiariesComponent() {
 
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 bg-foreground text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/hero2.jpeg" alt="Subsidiaries Banner" className="absolute inset-0 w-full h-full object-cover" />
+          <img loading="lazy" src="/hero2.jpeg" alt="Subsidiaries Banner" className="absolute inset-0 w-full h-full object-cover" />
           {/* Subtle gradient to ensure text remains readable */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
         </div>
@@ -87,3 +87,4 @@ function SubsidiariesComponent() {
     </main>
   )
 }
+
